@@ -21,8 +21,8 @@
 #  Google search results) and in your feed.xml site description.
 
 #archive
-baseurl: "/~112q" # the subpath of your site, e.g. /blog
-url: "https://www.cs.cmu.edu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/msa-website"  # Set this to your repo name
+url: "https://sal0-h.github.io"  # Keep this as your GitHub Pages root URL
 
 #twitter_username: jekyllrb
 #github_username:  jekyll
