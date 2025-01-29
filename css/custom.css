@@ -1,0 +1,53 @@
+h1 {
+    font-size: 1.602em;
+}
+h2 {
+    font-size: 1.424em;
+}
+h3 {
+    font-size: 1.266em;
+}
+h4 {
+    font-size: 1.125em;
+}
+h5 {
+    font-size: 0.889em;
+}
+h6 {
+    font-size: 0.79em;
+}
+
+.indent-one{
+    margin-left:1em;
+}
+
+@media print {
+    .nav-item {
+      display:none;
+    }
+    thead { display:table-row-group }
+    tfoot { display:table-row-group }
+}
+
+.btn-group-xs > .btn, .btn-xs {
+        padding  : .25rem .4rem;
+        font-size  : .875rem;
+        line-height  : .5;
+        border-radius : .2rem;
+        margin : 0.2rem;
+        margin-top: -0.5rem;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.pic { height: 22rem; ;width: 15.5rem; overflow: hidden; position: relative }
+.pic img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);}
