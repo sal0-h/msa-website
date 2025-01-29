@@ -286,11 +286,11 @@ function hideNavbarIfNeeded() {
 function setupBrython() {
     urlOrFnList = [
         setupPythonCode,
-        "/~112q/js/brython_dist.js",
-        "/~112q/js/ace.js",
+        "/msa-website/js/brython_dist.js",
+        "/msa-website/js/ace.js",
         adjustAceBasePath,
-        "/~112q/js/theme-xcode.js",
-        "/~112q/js/modal-brython-popup.js",
+        "/msa-website/js/theme-xcode.js",
+        "/msa-website/js/modal-brython-popup.js",
         // function(){alert("wahoo");},
         function() { MBP.insertModalBrythonPopupHtml() }, // wrap since not yet defined
         enableBrythonRunButtons,
